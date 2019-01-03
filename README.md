@@ -11,12 +11,12 @@ The KeyringController has three main responsibilities:
 
 ## Installation
 
-`npm install eth-keyring-controller --save`
+`npm install @tsiry/eth-keyring-controller --save`
 
 ## Usage
 
 ```javascript
-const KeyringController = require('eth-keyring-controller')
+const KeyringController = require('@tsiry/eth-keyring-controller')
 const SimpleKeyring = require('eth-simple-keyring')
 
 const keyringController = new KeyringController({
