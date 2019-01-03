@@ -10,7 +10,7 @@ const sigUtil = require('eth-sig-util')
 const normalizeAddress = sigUtil.normalize
 // Keyrings:
 const SimpleKeyring = require('eth-simple-keyring')
-const HdKeyring = require('eth-hd-keyring')
+const HdKeyring = require('@tsiry/eth-hd-keyring')
 const keyringTypes = [
   SimpleKeyring,
   HdKeyring,

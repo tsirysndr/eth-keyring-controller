@@ -1,5 +1,5 @@
 {
-  "name": "eth-keyring-controller",
+  "name": "@tsiry/eth-keyring-controller",
   "version": "4.0.0",
   "description": "A module for managing various keyrings of Ethereum accounts, encrypting them, and using them.",
   "main": "index.js",
@@ -36,7 +36,7 @@
     "bip39": "^2.4.0",
     "bluebird": "^3.5.0",
     "browser-passworder": "^2.0.3",
-    "eth-hd-keyring": "^2.0.0",
+    "@tsiry/eth-hd-keyring": "^2.0.0",
     "eth-sig-util": "^1.4.0",
     "eth-simple-keyring": "^2.0.0",
     "ethereumjs-util": "^5.1.2",
